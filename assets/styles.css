@@ -9,6 +9,11 @@ body {
     flex-direction: column;
 }
 
+input[type=text], 
+input[type=number] {
+    width: 50%;
+}
+
 #uploader{
     border-radius: 2px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
